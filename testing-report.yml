@@ -1,0 +1,31 @@
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Фильтрация по цене
+  status: pass
+
+- summary: |
+    Фильтрация по производителю
+  status: pass
+
+- summary: |
+    Оформление заказа
+  status: pass
+
+- summary: |
+    Просмотр информации о товаре
+  status: pass
+
+- summary: |
+    Проверка доступности сайта на разных устройствах
+  status: fail
+
+- summary: |
+    Проверка совместимости с последними версиями браузеров
+  status: passed
+
+- summary: |
+    Проверка сайта на мультиязычность
+  status: fail

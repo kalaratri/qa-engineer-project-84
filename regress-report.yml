@@ -1,0 +1,47 @@
+---
+test-cases:
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+
+  - summary: |
+      Фильтрация по цене
+    status: pass
+
+  - summary: |
+      Фильтрация по производителю
+    status: pass
+
+  - summary: |
+      Оформление заказа
+    status: pass
+
+  - summary: |
+      Просмотр информации о товаре
+    status: pass
+
+  - summary: |
+      Проверка доступности сайта на разных устройствах
+    status: fail
+
+  - summary: |
+      Проверка совместимости с последними версиями браузеров
+    status: pass
+
+  - summary: |
+      Проверка на мультиязычность
+    status: fail
+
+  bugreports:
+  - summary: |
+      Отсутствует кнопка Next начиная со второй страницы каталога
+    environment: |
+      Google Chrome Chrome 128.0.6613.85 (Официальная сборка), (64 бит)
+    ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Зайти на страницу каталога
+      2. Нажать кнопку Next
+    expected-result: |
+      Отображаются 2 кнопки: Next и Previous
+    actual-result: |
+      Отображается только кнопка Previous

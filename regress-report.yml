@@ -2,35 +2,35 @@
 test-cases:
   - summary: |
       Добавление товара в корзину
-    status: pass
+  status: pass
 
   - summary: |
       Фильтрация по цене
-    status: pass
+  status: pass
 
   - summary: |
       Фильтрация по производителю
-    status: pass
+  status: pass
 
   - summary: |
       Оформление заказа
-    status: pass
+  status: pass
 
   - summary: |
       Просмотр информации о товаре
-    status: pass
+  status: pass
 
   - summary: |
       Проверка доступности сайта на разных устройствах
-    status: fail
+  status: fail
 
   - summary: |
       Проверка совместимости с последними версиями браузеров
-    status: pass
+  status: pass
 
   - summary: |
       Проверка на мультиязычность
-    status: fail
+  status: fail
 
 bugreports:
   - summary: |

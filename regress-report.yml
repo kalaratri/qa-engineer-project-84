@@ -35,13 +35,13 @@ test-cases:
 bugreports:
   - summary: |
       Отсутствует кнопка Next начиная со второй страницы каталога
-    environment: |
+  environment: |
       Google Chrome Chrome 128.0.6613.85 (Официальная сборка), (64 бит)
     ОС Windows 10 Pro
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу каталога
       2. Нажать кнопку Next
-    expected-result: |
+  expected-result: |
       Отображаются 2 кнопки: Next и Previous
-    actual-result: |
+  actual-result: |
       Отображается только кнопка Previous

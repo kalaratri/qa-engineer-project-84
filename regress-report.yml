@@ -31,13 +31,13 @@ test-cases:
   - summary: |
       Проверка на мультиязычность
   status: fail
-
+  
 bugreports:
   - summary: |
       Отсутствует кнопка Next начиная со второй страницы каталога
   environment: |
       Google Chrome Chrome 128.0.6613.85 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
+      ОС Windows 10 Pro
   steps-to-reproduce: |
       1. Зайти на страницу каталога
       2. Нажать кнопку Next

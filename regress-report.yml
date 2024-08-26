@@ -32,7 +32,7 @@ test-cases:
       Проверка на мультиязычность
     status: fail
 
-  bugreports:
+bugreports:
   - summary: |
       Отсутствует кнопка Next начиная со второй страницы каталога
     environment: |

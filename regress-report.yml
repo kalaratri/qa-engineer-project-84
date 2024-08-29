@@ -29,7 +29,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка на мультиязычность
+      Проверка отображения сайта на русском языке
     status: fail
   
 bugreports:

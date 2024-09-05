@@ -37,3 +37,19 @@
 - summary: |
     Проверка возможности добавления больше единиц товара, чем есть в наличии
   status: pass
+
+- summary: |
+    Поиск по ключевым словам
+  status: pass
+
+- summary: |
+    Фильтрация по категориям
+  status: pass
+
+- summary: |
+    Очистка корзины через кнопку "Clear cart"
+  status: pass
+
+- summary: |
+    Удаление позиций из корзины через кнопку "Delete"
+  status: pass
